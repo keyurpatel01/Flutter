@@ -6,7 +6,15 @@ class MyCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Card"), backgroundColor: Colors.green),
+      appBar: AppBar(title: Text('Card'), backgroundColor: Colors.green),
+      body: Center(
+        child: Card(
+          child: Container(height: 200, width: 200),
+          color: Colors.blue,
+          shadowColor: Colors.purple,
+          elevation: 20,
+        ),
+      ),
     );
   }
 }
