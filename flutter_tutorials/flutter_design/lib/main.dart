@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design/P004_card.dart';
+import 'package:flutter_design/P008_clicked.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyCard(),
+      home: Clicks(),
       // Scaffold(
       //   appBar: AppBar(title: Text('MyApp'), backgroundColor: Colors.green),
       //   body: Center(
