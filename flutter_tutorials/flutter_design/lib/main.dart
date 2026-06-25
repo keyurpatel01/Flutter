@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_design/P013_bottomNavigation.dart';
 
 void main() {
@@ -19,19 +18,6 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyBottomNavigation(),
-      // Scaffold(
-      //   appBar: AppBar(title: Text('MyApp'), backgroundColor: Colors.green),
-      //   body: Center(
-      //     child: Text(
-      //       'Hello Flutter',
-      //       style: TextStyle(
-      //         fontSize: 25,
-      //         color: Colors.white,
-      //         backgroundColor: Colors.blue,
-      //       ),
-      //     ),
-      //   ),
-      // ),
     );
   }
 }
