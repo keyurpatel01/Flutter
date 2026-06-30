@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design/P013_bottomNavigation.dart';
+import 'package:flutter_design/P014_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyBottomNavigation(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: MyDrawer());
   }
 }
